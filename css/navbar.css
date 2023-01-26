@@ -1,0 +1,31 @@
+nav{
+  background-color: #3498db;
+  margin: 0;
+}
+ul{
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  padding:  1% ;}
+
+#premier{
+
+  padding-left: 1%;
+}
+
+li{
+  list-style-type:none ;
+  margin-right: 16%;
+  font-size: 1.5em  ;
+  
+}
+li>a{
+  text-decoration: none;
+  color: aliceblue;
+
+}
+li>a:hover{
+  text-decoration: underline;
+  color: #18ffd1;
+
+}
