@@ -1,5 +1,4 @@
 .conv{
-  border: 2px solid red;
   display: flex;
   flex-direction: row;
   position: fixed;
@@ -9,20 +8,38 @@
   bottom: 0;
 }
 .conversation{
-  border: 2px solid white;
-width: 80%;
-height: 100%;
-
+  background-size: 100%;
+  background-image: url("../img/internet-g6fe33db08_1920.jpg");
+  /* border: 2px solid white; */
+  width: 80%;
+  height: 100%;
 }
-p{
-  border: 1px solid blueviolet;
+h1{
+  
+  text-decoration: underline overline;
+  /* text-decoration-style:wavy ; */
+ text-align: center;
+  color: #00765e;
 }
 .liste{
   width: 20%;
-}.row{
+}
+.row{
   position: fixed;
   bottom: 1%;
   left: 1%;
   display: flex;
   flex-direction: row;
+}
+button{
+  border: none;
+  background-color: #00765e;
+  color: azure;
+  margin-left:1% ;
+  width: 10%;
+  font-size: 1.2em;
+  border-radius: 10%;
+}
+button:hover{
+  background-color: #03a383;
 }
