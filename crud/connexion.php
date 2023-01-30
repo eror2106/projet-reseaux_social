@@ -7,7 +7,7 @@ try {
     'root',
     ''
   );
-  echo 'connexion reussi';
+  // echo 'connexion reussi';
   // }
   // if (strcmp($_SERVER['ENVIRONMENT_TYPE'], "production") == 0) {
   //   $db = new PDO(
