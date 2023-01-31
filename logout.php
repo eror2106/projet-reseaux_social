@@ -15,17 +15,9 @@
 </head>
 
 <body>
-  <nav>
-
-    <ul>
-      <li id="premier"><a href="index.html">acceuil</a></li>
-      <li><a href="login.html">conexion</a></li>
-
-      <li><a href="conv.html">conversation</a></li>
-      <li><a href="logout.html">deconexion</a></li>
-    </ul>
-
-  </nav>
+  <?php
+  include 'nav_bar.php';
+  ?>
   <h1>tu as bien ete deco</h1>
 </body>
 
